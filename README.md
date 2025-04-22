@@ -1,38 +1,86 @@
-"# FinalProjectGame"
-About the Project
-TriSwitch is our student project — a 2D puzzle platformer where the player controls three different characters: Miss J, Miss K, and Mister B.
-Each character has their own abilities, and the levels are designed in a way that makes the player combine their skills.
-It’s not just about jumping — it’s about thinking.
+#  FinalProjectGame: **TriSwitch**
 
-In easy levels, the player can freely switch between characters. But as the game gets harder, things change: in some levels, all three characters move together like one synchronized team. If you complete such a level with all of them — that’s a real achievement, a record.
+A logic-driven 2D platformer built on teamwork and smart switching.
 
-Characters
-Miss J — agile and jumpy. She can wall-jump, double jump, and fit through tight spaces. Very mobile.
+---
 
-Miss K — controls magnetic fields. She can attract or push metal objects to create bridges, paths, or tools.
+##  About the Project
 
-Mister B — the brains of the team. He works with terminals, buttons, and solves logical puzzles.
-Without him, nothing really works.
+**TriSwitch** is a student-developed 2D puzzle platformer where you control **three unique characters** — **Miss J**, **Miss K**, and **Mister B**.  
+Each of them has special skills, and only by combining these abilities can you solve puzzles and complete levels.
 
-Levels
-We’re building three levels, each with its own logic and difficulty:
+What makes this project stand out:
+-  It’s not just about reflexes — it’s about **thinking**.
+-  In harder levels, you **don’t switch** characters. Instead, they **move together** like a synchronized squad.
+-  Completing a level with all three — especially in sync — is considered a **record**, and it unlocks **rewards**.
 
-Tutorial (Level 1) — players learn how to switch between characters and use their powers. Simple and clear.
+---
 
-Medium level (Level 2) — switching is disabled. The player picks two characters and controls them at the same time — one move means both move. That’s when real strategy begins.
+##  Characters
 
-Hard level (Level 3) — can be completed by just one character, but finishing it with all three (synchronously!) is considered a record. The game rewards those players.
+### Miss J — _The Agile_
+- Wall-jumps with ease
+- Can double-jump and squeeze into tight spaces
+- Super mobile and fast
 
-Core Rules
-Switching between characters is only allowed in the first level.
+### Miss K — _The Magnetic_
+- Controls magnetic fields
+- Pulls and pushes metal objects
+- Can build bridges and open new paths
 
-In level 2 and 3, characters move together as a group — all actions are synchronized.
+###  Mister B — _The Brain_
+- Interfaces with terminals, switches, and puzzles
+- Solves logical sequences
+- A must-have for tech-based interactions
 
-Each character has unique zones they can access, so you’ll need to use their abilities smartly.
+---
 
-Completing the hardest level with all three characters unlocks a reward and a record.
+##  Levels Overview
 
-Why We’re Doing This
-We’re working on this project together to practice teamwork, architecture, and just try using LibGDX in a real game.
-The code is organized into folders: characters, levels, logic, screens, and utils.
-We plan to use Trello for task tracking and split our work into Git branches for easier collaboration.
+###  **Level 1 — Tutorial**
+- All three characters are used
+- Learn how to switch and combine powers
+
+###  **Level 2 — Medium**
+- You pick **two** characters
+- Movement is **synchronized** (both act together)
+- Requires strategic planning
+
+###  **Level 3 — Hard**
+- Can be completed solo
+- But finishing with **all three** (in sync!) sets a **record**
+- Special **bonuses** are unlocked for mastery
+
+---
+
+##  Core Rules
+
+- Free switching is only available in **Level 1**
+- In Level 2 and 3, movement is **group-based** — all selected characters move together
+- Each character accesses **unique areas**
+- Completing the final level with all three = **reward** + **record**
+
+---
+
+##  Why We're Building This
+
+We’re developing TriSwitch as a team to:
+
+- Practice real collaboration using **Git**, **branches**, and **pull requests**
+- Structure code smartly using **LibGDX**
+- Break responsibilities across clear folders:
+    - `characters` – logic for each hero
+    - `levels` – game stages and layouts
+    - `logic` – interactions, switches, gates
+    - `screens` – menu, game over, etc.
+    - `utils` – assets, constants, input
+
+We're managing the project in **Trello**, using a **To-Do / Doing / Done** board for progress, and splitting tasks across Git branches for smooth teamwork.
+
+---
+
+ **Final Goal**  
+Create a small but polished puzzle platformer that rewards smart thinking, teamwork, and creative planning — both for players and developers.
+
+---
+
